@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "omarchy-consensus",
+  "name": "Research Consensus",
+  "version": "1.0.0",
+  "author": "Faeres",
+  "description": "Search Europe PMC for meta-analyses and systematic reviews on a topic",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Consensus.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Research Consensus",
+    "description": "Search scientific consensus (meta-analyses & systematic reviews) from Europe PMC",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
