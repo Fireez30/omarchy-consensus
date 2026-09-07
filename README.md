@@ -38,3 +38,8 @@ omarchy plugin add https://github.com/Fireez30/omarchy-consensus.git --enable
 
 Move it with `omarchy bar move faeres.omarchy-consensus` if you want it somewhere
 other than the default placement.
+
+
+## Notes 
+
+This plugin has been developed with the help of Claude code.
