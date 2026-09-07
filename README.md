@@ -36,5 +36,5 @@ This is a third-party plugin. Install it with:
 omarchy plugin add https://github.com/Fireez30/omarchy-consensus.git --enable
 ```
 
-Move it with `omarchy bar move omarchy-consensus` if you want it somewhere
+Move it with `omarchy bar move faeres.omarchy-consensus` if you want it somewhere
 other than the default placement.

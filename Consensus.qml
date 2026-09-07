@@ -74,7 +74,7 @@ Item {
   function dismiss() {
     root.opened = false
     if (root.shell && typeof root.shell.hide === "function")
-      root.shell.hide((root.manifest && root.manifest.id) || "omarchy-consensus")
+      root.shell.hide((root.manifest && root.manifest.id) || "faeres.omarchy-consensus")
   }
 
   function toggle() {

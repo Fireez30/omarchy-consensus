@@ -10,7 +10,7 @@ import qs.Ui
 // with that font).
 BarWidget {
   id: root
-  moduleName: "omarchy-consensus"
+  moduleName: "faeres.omarchy-consensus"
 
   implicitWidth: button.implicitWidth
   implicitHeight: button.implicitHeight
@@ -24,7 +24,7 @@ BarWidget {
     tooltipText: "Research Consensus"
     onPressed: function(button) {
       if (!root.bar) return
-      root.bar.run("omarchy-shell shell toggle omarchy-consensus")
+      root.bar.run("omarchy-shell shell toggle faeres.omarchy-consensus")
     }
   }
 }
